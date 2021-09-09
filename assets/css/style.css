@@ -14,7 +14,7 @@ body {
     background-size: cover;
     font-family: 'Bangers', cursive;
     letter-spacing: 4px;
-    color: azure;
+    color: #C5B1FD;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -35,4 +35,36 @@ body {
     border: 1px solid #fff;
     text-align: center;
     padding-top: 0px;
+}
+
+.btn-list {
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    width: 100%;
+    background-color:#00C89F;
+    color: #FFFADE;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #C5B1FD;
+}
+
+.btn-nav {
+    background-color: #070540;
+    color: #00C89F;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-nav:hover {
+    background-color:#FFFADE;
 }
