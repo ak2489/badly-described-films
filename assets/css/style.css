@@ -38,7 +38,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-/* Content section style */
+/* Container section style */
 
 .container {
     background-color: #070540;
@@ -50,6 +50,8 @@ h3 {
     text-align: center;
     padding-top: 0px;
 }
+
+/* button style */
 
 .btn-list {
     display: grid;
@@ -98,4 +100,10 @@ h3 {
 
 .hide {
     display: none;
+}
+
+/* Question style */
+
+#question {
+    font-size: 1.6rem;
 }
