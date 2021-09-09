@@ -1,0 +1,10 @@
+/* Fonts imported from Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Bangers', cursive;
+}
