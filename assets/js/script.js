@@ -173,7 +173,7 @@ const questions = [
         answers: [
             {text: "Beauty and the Beast", correct: false},
             {text: "Cinderella", correct: false},
-            {text: "Sherk", correct: false},
+            {text: "Shrek", correct: false},
             {text: "Aladdin", correct: true}
         ]
     }
