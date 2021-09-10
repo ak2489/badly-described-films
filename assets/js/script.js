@@ -66,6 +66,7 @@ function selectAnswer(e) {
     } else {
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
+        startButton = window.alert("Congratulations! You finished the quiz press restart to try again.");
     }
     
 }
