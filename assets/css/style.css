@@ -34,7 +34,7 @@ h1 {
 
 h3 {
     color: #C5B1FD;
-    font-size: 180%;
+    font-size: 160%;
     padding-bottom: 20px;
 }
 
@@ -68,6 +68,7 @@ h3 {
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
     font-size: 1.6rem;
+    border-radius: 25px;
 }
 
 .btn:hover {
@@ -84,6 +85,7 @@ h3 {
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
     font-size: 1.4rem;
+    border-radius: 25px;
 }
 
 .btn-nav:hover {
@@ -105,5 +107,5 @@ h3 {
 /* Question style */
 
 #question {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
