@@ -79,7 +79,7 @@ function setStatusClass(element, correct) {
     }
 }
 
-function setStatusClass(element) {
+function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
