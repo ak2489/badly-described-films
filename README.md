@@ -78,6 +78,8 @@ The live link can be found here - https://ak2489.github.io/badly-described-films
 * To help with the JavaScript element of the quiz i used this [YouTube](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2111s) video and CI [love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things) as a reference.
 * To help with the CSS element i used [w3schools](www.w3schools.com).
 * The icons in the Title was taken from [Font Awesome](https://fontawesome.com/).
+* Use of Balsamiq Wireframes to help draw the layout of the game. 
+![](assets/docs/wireframes.jpg)
 
 ### Media 
 
