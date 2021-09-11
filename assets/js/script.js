@@ -7,12 +7,6 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
-// Variables for score area
-
-const scoreText = document.getElementById('score-area');
-var score = document.getElementById('score').value;
-var score = 0
-
 //Variables for questions
 
 let shuffledQuestions, currentQuestionIndex;
@@ -31,7 +25,6 @@ function startGame() {
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     questionContainerElement.classList.remove('hide');
-    scoreText.classList.remove('hide');
     setNextQuestion();
 }
 
@@ -90,15 +83,6 @@ function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
-
-//Function for Scores
-
-function score() {
-    if (selectedButton.dataset.correct) {
-        score +=1;
-    }
-}
-
 
 //Array of questions 
 
